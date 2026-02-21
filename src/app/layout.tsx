@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Drive Face Match",
   description: "Find matching faces across your Google Drive with AI-powered facial recognition",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({
